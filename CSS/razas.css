@@ -1,0 +1,883 @@
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src:url(../fuentes/Champagne & Limousines.ttf);
+}
+
+@font-face {
+  font-family: 'Cherry';
+  src:url(../fuentes/CherrySwash-Regular.ttf);
+}
+
+li {
+  list-style: none;
+}
+body{
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-top: 25px;
+}
+
+.header {
+position: absolute;
+width: 1350px;
+height: 104px;
+left: 65px;
+right: 65px;
+top: 25px;
+bottom: 25px;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+width: 142px;
+  height: 102px;
+}
+
+.logoimg {
+  position: absolute;
+  top:0;
+  left:0;
+width: 142px;
+  height: 104px;
+}
+
+.buscador {
+position: absolute;
+width: 1000px;
+height: 104px;
+left:150px;
+top: 0 ;
+align-items: center;
+  background: #C6E6EA;
+}
+
+.buscar{
+  position: absolute;
+  width: 500px;
+  height: 104px;
+  left: 388px;
+  top: 40px;
+}
+
+.cuadroazul{
+position: absolute;
+width: 246px;
+height: 104px;
+left: 1105px;
+top: 0;
+background: #88D2D7;
+}
+
+
+
+.banner.style{
+  position: absolute;
+  width: 1297px;
+  height:454px;
+  left:0;
+  top: calc(50% - 454px/2 - 652px);
+  background:url(https://www.nationalgeographic.com.es/medio/2020/10/31/erizo-europeo_606d20b8.jpg);
+}
+
+.checkout{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.IS {
+position: absolute;
+width: 129px;
+height: 28px;
+left: 58px;
+top: 10px;
+font-family:'Champagne & Limousines';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+
+}
+
+.Registar{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 65px;
+  top: 35px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.Carrito {
+  position: absolute;
+width: 70px;
+height: 28px;
+left: 90px;
+top: 60px;
+font-family:'Champagne & Limousines';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+
+.linea{
+  position: absolute;
+width: 1350px;
+height: 15px;
+left: 69px;
+top: 145px;
+
+background: #6BADBD;
+border-radius: 32px;
+}
+
+
+.menu{
+  position: absolute;
+width: 831px;
+height: 188px;
+left: 335px;
+top: 180px;
+
+}
+
+.IB{
+position: absolute;
+ Width:114px;
+  Height: 114px;
+  Top: 0;
+  Left: 2px;
+  Radius: 118px;
+}
+.IB1{
+  position: absolute;
+  Width:114px;
+  Height: 114px;
+  Top: 0;
+  Left: 2px;
+  Radius: 50px;
+  border: 6px solid #8CCDD4;
+  border-radius: 118px;
+}
+.IBT{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 10px;
+  top: 115px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.A{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 70px;
+}
+.A1{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 70px;
+border: 6px solid #8CCDD4;
+border-radius: 100px;
+}
+.AT{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 80px;
+  top: 115px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.C{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 140px;
+}
+.C1{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 140px;
+border: 6px solid #8CCDD4;
+border-radius: 100px;
+}
+.CT{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 150px;
+  top: 115px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.R{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 210px;
+}
+.R1{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 210px;
+border: 6px solid #8CCDD4;
+border-radius: 100px;
+}
+.RT{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 215px;
+  top: 115px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.T{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 280px;
+}
+.T1{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 280px;
+border: 6px solid #8CCDD4;
+border-radius: 100px;
+}
+.TT{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 290px;
+  top: 115px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.CE{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 350px;
+}
+.CE1{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 0;
+Left: 350px;
+border: 6px solid #8CCDD4;
+border-radius: 100px;
+}
+.CET{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 355px;
+  top: 115px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+
+.linea2{
+position: absolute;
+width: 1350px;
+height: 15px;
+left: 69px;
+top: 380px;
+background: #6BADBD;
+border-radius: 32px;
+}
+
+
+.Razas1{
+  position: absolute;
+width: 368px;
+height: 53px;
+left: 565px;
+top: 370px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight:200px;
+font-size: 40px;
+line-height: 53px;
+
+text-align: center;
+
+color: #873B28;
+
+}
+
+.razas2{
+  position: absolute;
+width: 321px;
+height: 303px;
+left: 585px;
+top: 490px;
+}
+
+.TI1{
+
+position: absolute;
+width: 362px;
+height: 37px;
+left: 117px;
+top: 849px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I1{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 117px;
+top: 911px;
+}
+
+.T2{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 549px;
+top: 849px;
+
+font-family: 'Cherry Swash';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I2{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 547px;
+top: 913px;
+
+}
+
+.T3{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 974px;
+top: 849px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I3{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 974px;
+top: 913px;
+
+}
+
+.T4{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 117px;
+top: 1322px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I4{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 105px;
+top: 1384px;
+}
+
+.T5{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 547px;
+top: 1322px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I5{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 535px;
+top: 1386px;
+}
+
+.T6{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 962px;
+top: 1322px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I6{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 974px;
+top: 1386px;
+}
+
+.T7{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 109px;
+top: 1802px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I7{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 117px;
+top: 1864px;
+}
+
+.T8{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 541px;
+top: 1802px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I8{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 539px;
+top: 1866px;
+}
+
+.T9{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 966px;
+top: 1802px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I9{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 974px;
+top: 1866px;
+}
+
+.T10{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 105px;
+top: 2282px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I10{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 105px;
+top: 2344px;
+}
+
+.T11{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 537px;
+top: 2282px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I11{
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 535px;
+  top: 2346px;
+}
+
+.T12{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 962px;
+top: 2282px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I12{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 962px;
+top: 2346px;
+}
+
+.T13{
+  position: absolute;
+  width: 362px;
+  height: 37px;
+  left: 105px;
+  top: 2762px;
+
+  font-family: 'Cherry';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.I13{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 105px;
+top: 2824px;
+}
+
+.T14{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 537px;
+top: 2762px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I14{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 535px;
+top: 2826px;
+}
+
+.T15{
+  position: absolute;
+width: 362px;
+height: 37px;
+left: 962px;
+top: 2762px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.I15{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 962px;
+top: 2826px;
+}
+
+.T16{
+
+  position: absolute;
+  width: 362px;
+  height: 37px;
+  left: 537px;
+  top: 3225px;
+  font-family: 'Cherry';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+
+.I16{
+  position: absolute;
+width: 364px;
+height: 364px;
+left: 535px;
+top: 3300px;
+}
+
+.linea4{
+position: absolute;
+width: 1350px;
+height: 15px;
+left: 69px;
+top:3700px;
+background: #6BADBD;
+border-radius: 32px;
+}
+
+.piedepagina{
+position: absolute;
+width: 1350px;
+height: 178px;
+left: 77px;
+top: 3725px;
+
+}
+
+.correonumero{
+  position: absolute;
+width: 307px;
+height: 83px;
+left: 150px;
+top: 50px;
+
+
+}
+
+.numero{
+  position: absolute;
+  width: 307px;
+  height: 83px;
+  left: 5px;
+  top: 20px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.logoimg1{
+  position: absolute;
+  width: 142px;
+    height: 102px;
+left: 600px;
+top:40px;
+
+}
+.redes{
+  position: absolute;
+  width: 307px;
+  height: 83px;
+  left: 900px;
+  top: 50px;
+}
+.siguenos{
+position: absolute;
+width: 307px;
+height: 83px;
+left: 0px;
+top: 25px;
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align:center;
+color: #873B28;;
+}
+
+.redes .media-buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+.media-buttons .link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 8px;
+  background-color: #4070f4;
+  text-decoration: none;
+}
+.redes .buttons{
+display: flex;
+align-items: center;
+margin-top: 25px;
+}

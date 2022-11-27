@@ -1,0 +1,469 @@
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src:url(../fuentes/Champagne & Limousines.ttf);
+}
+
+@font-face {
+  font-family: 'Cherry';
+  src:url(../fuentes/CherrySwash-Regular.ttf);
+}
+
+li {
+  list-style: none;
+}
+body{
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-top: 25px;
+}
+
+.header {
+position: absolute;
+width: 1350px;
+height: 104px;
+left: 65px;
+right: 65px;
+top: 25px;
+bottom: 25px;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+width: 142px;
+  height: 102px;
+}
+
+.logoimg {
+  position: absolute;
+  top:0;
+  left:0;
+width: 142px;
+  height: 104px;
+}
+
+.buscador {
+position: absolute;
+width: 1000px;
+height: 104px;
+left:150px;
+top: 0 ;
+align-items: center;
+  background: #C6E6EA;
+}
+
+.buscar{
+  position: absolute;
+  width: 500px;
+  height: 104px;
+  left: 388px;
+  top: 40px;
+}
+
+.cuadroazul{
+position: absolute;
+width: 246px;
+height: 104px;
+left: 1105px;
+top: 0;
+background: #88D2D7;
+}
+
+
+
+.banner.style{
+  position: absolute;
+  width: 1297px;
+  height:454px;
+  left:0;
+  top: calc(50% - 454px/2 - 652px);
+  background:url(https://www.nationalgeographic.com.es/medio/2020/10/31/erizo-europeo_606d20b8.jpg);
+}
+
+.checkout{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.IS {
+position: absolute;
+width: 129px;
+height: 28px;
+left: 58px;
+top: 10px;
+font-family:'Champagne & Limousines';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+
+}
+
+.Registar{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 65px;
+  top: 35px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.Carrito {
+  position: absolute;
+width: 70px;
+height: 28px;
+left: 90px;
+top: 60px;
+font-family:'Champagne & Limousines';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+
+.linea{
+  position: absolute;
+width: 1350px;
+height: 15px;
+left: 69px;
+top: 145px;
+
+background: #6BADBD;
+border-radius: 32px;
+}
+
+
+.regis{
+  position: absolute;
+width: 368px;
+height: 53px;
+left: calc(50% - 368px/2 + 6px);
+top: 125px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight:200px;
+font-size: 40px;
+line-height: 53px;
+/* identical to box height */
+
+text-align: center;
+
+color: #873B28;
+}
+
+.cuadro1{
+box-sizing: border-box;
+position: absolute;
+width: 438px;
+height: 67px;
+left: 525px;
+top: 250px;
+
+border: 5px solid #873B28;
+}
+.Usu{
+position: absolute;
+width: 122px;
+height: 42px;
+left: 10px;
+top: 0px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 100px;
+font-size: 20px;
+line-height: 5px;
+text-align: center;
+color: #000000;
+}
+
+
+.cuadro2{
+  box-sizing: border-box;
+  position: absolute;
+  width: 438px;
+  height: 67px;
+  left: 525px;
+  top: 325px;
+
+  border: 5px solid #873B28;
+  }
+
+.cuadro3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 438px;
+    height: 67px;
+    left: 525px;
+    top: 400px;
+
+    border: 5px solid #873B28;
+}
+
+.cuadro4{
+  box-sizing: border-box;
+  position: absolute;
+  width: 438px;
+  height: 67px;
+  left: 525px;
+  top: 475px;
+
+  border: 5px solid #873B28;
+}
+
+  .cuadro5{
+  box-sizing: border-box;
+  position: absolute;
+  width: 438px;
+  height: 67px;
+  left: 525px;
+  top: 550px;
+
+  border: 5px solid #873B28;
+}
+  .cuadro6{
+  box-sizing: border-box;
+  position: absolute;
+  width: 438px;
+  height: 67px;
+  left: 525px;
+  top: 625px;
+
+  border: 5px solid #873B28;
+}
+
+.cuadro7{
+box-sizing: border-box;
+position: absolute;
+width: 438px;
+height: 67px;
+left: 525px;
+top: 700px;
+
+border: 5px solid #873B28;
+}
+
+.cuadro8{
+box-sizing: border-box;
+position: absolute;
+width: 438px;
+height: 67px;
+left: 525px;
+top: 775px;
+
+border: 5px solid #873B28;
+}
+.cuadro9{
+box-sizing: border-box;
+position: absolute;
+width: 438px;
+height: 67px;
+left: 525px;
+top: 850px;
+
+border: 5px solid #873B28;
+}
+
+.Usu2{
+
+position: absolute;
+width: 317px;
+height: 42px;
+left: 5px;
+top: 0px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 5px;
+text-align: center;
+
+color: #000000;
+}
+
+.Usu3{
+position: absolute;
+width: 122px;
+height: 42px;
+left: 5px;
+top: 0px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 100px;
+font-size: 20px;
+line-height: 5px;
+text-align: center;
+color: #000000;
+}
+
+.Usu4{
+position: absolute;
+width: 122px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 100px;
+font-size: 20px;
+line-height: 5px;
+text-align: center;
+color: #000000;
+}
+.Usu5{
+position: absolute;
+width: 122px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 100px;
+font-size: 20px;
+line-height: 5px;
+text-align: center;
+color: #000000;
+}
+
+.Usu6{
+position: absolute;
+width: 122px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 100px;
+font-size: 15px;
+line-height: 5px;
+text-align: center;
+color: #000000;
+}
+
+
+.boton{
+  position: absolute;
+width: 241px;
+height: 72px;
+left: 700px;
+top: 925px;
+}
+
+
+
+.linea4{
+position: absolute;
+width: 1350px;
+height: 15px;
+left: 69px;
+top:1000px;
+background: #6BADBD;
+border-radius: 32px;
+}
+
+.piedepagina{
+position: absolute;
+width: 1350px;
+height: 178px;
+left: 77px;
+top: 1025px;
+
+}
+
+.correonumero{
+  position: absolute;
+width: 307px;
+height: 83px;
+left: 150px;
+top: 50px;
+
+
+}
+
+.numero{
+  position: absolute;
+  width: 307px;
+  height: 83px;
+  left: 5px;
+  top: 20px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.logoimg1{
+  position: absolute;
+  width: 142px;
+    height: 102px;
+left: 600px;
+top:40px;
+
+}
+.redes{
+  position: absolute;
+  width: 307px;
+  height: 83px;
+  left: 900px;
+  top: 50px;
+}
+.siguenos{
+position: absolute;
+width: 307px;
+height: 83px;
+left: 0px;
+top: 25px;
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align:center;
+color: #873B28;;
+}
+
+.redes .media-buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+.media-buttons .link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 8px;
+  background-color: #4070f4;
+  text-decoration: none;
+}
+.redes .buttons{
+display: flex;
+align-items: center;
+margin-top: 25px;
+}

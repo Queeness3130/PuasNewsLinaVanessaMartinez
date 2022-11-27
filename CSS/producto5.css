@@ -1,0 +1,410 @@
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src:url(../fuentes/Champagne & Limousines.ttf);
+}
+
+@font-face {
+  font-family: 'Cherry';
+  src:url(../fuentes/CherrySwash-Regular.ttf);
+}
+
+li {
+  list-style: none;
+}
+body{
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-top: 25px;
+}
+
+.header {
+position: absolute;
+width: 1350px;
+height: 104px;
+left: 65px;
+right: 65px;
+top: 25px;
+bottom: 25px;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+width: 142px;
+  height: 102px;
+}
+
+.logoimg {
+  position: absolute;
+  top:0;
+  left:0;
+width: 142px;
+  height: 104px;
+}
+
+.buscador {
+position: absolute;
+width: 1000px;
+height: 104px;
+left:150px;
+top: 0 ;
+align-items: center;
+  background: #C6E6EA;
+}
+
+.buscar{
+  position: absolute;
+  width: 500px;
+  height: 104px;
+  left: 388px;
+  top: 40px;
+}
+
+.cuadroazul{
+position: absolute;
+width: 246px;
+height: 104px;
+left: 1105px;
+top: 0;
+background: #88D2D7;
+}
+
+
+
+.banner.style{
+  position: absolute;
+  width: 1297px;
+  height:454px;
+  left:0;
+  top: calc(50% - 454px/2 - 652px);
+  background:url(https://www.nationalgeographic.com.es/medio/2020/10/31/erizo-europeo_606d20b8.jpg);
+}
+
+.checkout{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.IS {
+position: absolute;
+width: 129px;
+height: 28px;
+left: 58px;
+top: 10px;
+font-family:'Champagne & Limousines';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+
+}
+
+.Registar{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 65px;
+  top: 35px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.Carrito {
+  position: absolute;
+width: 70px;
+height: 28px;
+left: 90px;
+top: 60px;
+font-family:'Champagne & Limousines';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+
+.linea{
+  position: absolute;
+width: 1350px;
+height: 15px;
+left: 69px;
+top: 145px;
+
+background: #6BADBD;
+border-radius: 32px;
+}
+
+.T{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 15px;
+Left: 0px;
+}
+.T1{
+position: absolute;
+width: 114px;
+height: 114px;
+Top: 15px;
+Left: 0px;
+border: 6px solid #8CCDD4;
+border-radius: 100px;
+}
+.TT{
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  left: 5px;
+  top: 130px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.tenebrios{
+  position: absolute;
+width: 576px;
+height: 576px;
+left: 220px;
+top: 30px;
+}
+
+.todo{
+  position: absolute;
+  width: 560px;
+  height: 421px;
+  left: 821px;
+  top: 150px;
+}
+
+.Nombre{
+  position: absolute;
+width: 498px;
+height: 37px;
+left: 30px;
+top: 0px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.precio{
+  position: absolute;
+width: 498px;
+height: 37px;
+left: 30px;
+top: 70px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.parrafo1{
+  position: absolute;
+width: 510px;
+height: 58px;
+left: 25px;
+top: 90px;
+
+font-family: 'Champagne & Limousines';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+
+color: #000000;
+}
+
+.categoria{
+  position: absolute;
+width: 127px;
+height: 37px;
+left: 130px;
+top: 188px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.categoria2{
+  position: absolute;
+width: 215px;
+height: 29px;
+left: 240px;
+top: 195px;
+
+font-family: 'Champagne & Limousines';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+
+color: #000000;
+}
+
+.canti{
+
+position: absolute;
+width: 498px;
+height: 37px;
+left: 35px;
+top: 220px;
+
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+
+.cuadrocant{
+  position: absolute;
+width: 96px;
+height: 36px;
+left: 240px;
+top: 290px;
+
+background: #D9D9D9;
+}
+
+.buttons{
+  position: absolute;
+width: 145px;
+height: 36px;
+left: 253px;
+top: 340px;
+}
+
+.linea4{
+position: absolute;
+width: 1350px;
+height: 15px;
+left: 0px;
+top:650px;
+background: #6BADBD;
+border-radius: 32px;
+}
+
+.piedepagina{
+position: absolute;
+width: 1350px;
+height: 178px;
+left: 0px;
+top: 650px;
+}
+
+.correonumero{
+  position: absolute;
+width: 307px;
+height: 83px;
+left: 150px;
+top: 50px;
+}
+
+.numero{
+  position: absolute;
+  width: 307px;
+  height: 83px;
+  left: 5px;
+  top: 20px;
+  font-family: 'Champagne & Limousines';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.logoimg1{
+  position: absolute;
+  width: 142px;
+    height: 102px;
+left: 600px;
+top:40px;
+
+}
+.redes{
+  position: absolute;
+  width: 307px;
+  height: 83px;
+  left: 900px;
+  top: 50px;
+}
+.siguenos{
+position: absolute;
+width: 307px;
+height: 83px;
+left: 0px;
+top: 25px;
+font-family: 'Cherry';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align:center;
+color: #873B28;;
+}
+
+.redes .media-buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+.media-buttons .link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 8px;
+  background-color: #4070f4;
+  text-decoration: none;
+}
+.redes .buttons{
+display: flex;
+align-items: center;
+margin-top: 25px;
+}
